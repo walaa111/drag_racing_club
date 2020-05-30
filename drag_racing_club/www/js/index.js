@@ -62,7 +62,7 @@ var app = {
 
         this.receivedEvent('deviceready');
 
- var inAppBrowserbRef = cordova.InAppBrowser.open('https://play.famobi.com/drag-racing-club', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
+ var inAppBrowserbRef = cordova.InAppBrowser.open('https://games.cdn.famobi.com/html5games/d/drag-racing-club/v060/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=7903c763-4f6b-48fb-8396-3a18daae70c7&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=859&original_ref=', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
 
 /*
 inAppBrowserbRef.addEventListener('loadstart', function() {
